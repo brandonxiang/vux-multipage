@@ -1,6 +1,5 @@
-# multipage
-
-> A Vue.js project
+# vux-multipage
+A multipage boilerplate with vue2, vux2
 
 Step One
 
@@ -88,3 +87,4 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
