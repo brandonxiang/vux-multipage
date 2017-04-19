@@ -1,7 +1,7 @@
 # vux-multipage
-A multipage boilerplate with vue2, vux2
+A multipage boilerplate with vue2, vux2, referecing [jarvan4dev/vue-multi-page](https://github.com/jarvan4dev/vue-multi-page)
 
-Step One
+## Step One
 
 添加一个找入口的函数
 
@@ -32,7 +32,7 @@ exports.getEntries = function (globPath) {
 }
 ```
 
-Step Two
+## Step Two
 
 修改js切入点
 
@@ -40,7 +40,7 @@ Step Two
 entry: utils.getEntries('./src/module/**/*.js'),
 ```
 
-Step Three
+## Step Three
 
 往webpack的plugin中添加HtmlWebpackPlugin。
 
@@ -65,7 +65,7 @@ for(var page in pages) {
 }
 ```
 
-Step Four
+## Step Four
 
 把 `webpack.dev.conf.js`和`webpack.prod.conf.js`的多余的`HtmlWebpackPlugin`去掉
 
